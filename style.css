@@ -1,0 +1,51 @@
+body{
+    font-family: "Comfortaa", serif;
+}
+.parent{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+.solid-circle{
+    height: 1000px;
+    width: 1000px;
+    background-color: #476ef7;
+    border-radius: 50%;
+    position: absolute;
+    right: -25%;
+    top: -90px;
+    z-index: 1;
+}
+.header-home{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    padding: 10px 25px;
+}
+#click-here-btn{
+    background-color: white;
+    color: #476ef7;
+    font-size: large;
+    font-weight: 700;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin-left: 25px;
+}
+#name{
+    color: #476ef7;
+    font-size: 100px;
+}
+#login-btn{
+    background-color: #476ef7;
+    color: white;
+    padding: 5px 25px;
+    width: 25%;
+}

@@ -1,0 +1,21 @@
+body{
+    font-family: "Comfortaa", serif;
+}
+.header{
+    background: #476ef7;
+    color: white;
+    padding-left: 25px;
+    font-size: x-large;
+}
+.input-form{
+    display: flex;
+}
+#add-btn{
+    background-color: #476ef7;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
