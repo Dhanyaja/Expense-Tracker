@@ -9,6 +9,13 @@ body{
 }
 .input-form{
     display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #476ef7;
+    margin-top: 15px;
+    padding: 25px 0;
 }
 #add-btn{
     background-color: #476ef7;
@@ -17,5 +24,45 @@ body{
     border-radius: 50%;
     font-size: x-large;
     font-weight: 600;
+    color: white;
+}
+.inputs{
+    width: 30%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.card{
+    background-color: #476ef7;
+    border: 0;
+    height: 150px;
+}
+.card-body{
+    color: white;
+}
+.transaction-table{
+    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 600;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    padding: 0;
+}
+#header-row{
+    background-color: #476ef7;
+}
+#header-row th{
+    padding: 15px 10px;
+    color: white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
     color: white;
 }
